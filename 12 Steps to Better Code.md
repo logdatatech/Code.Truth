@@ -9,13 +9,13 @@ The Joel Test (abridged/edited slightly by Nathan K.)
 3.  Do you make **_daily_** builds ?
 4.  Do you **have** a bug database ?
 5.  Do you **_fix_** old bugs before writing new code ?
-6.  Do you have an up-to-date schedule ?
-7.  Do you have a specification ?
+6.  Do you **have** an up-to-date schedule ?
+7.  Do you **have** a specification ?
 8.  Do programmers have **quiet** working conditions ?
 9.  Do you use the best tools **money** can buy ?
-10. Do you have testers ?
-11. Do new candidates write code during their interview ?
-12. Do you do hallway usability testing ?
+10. Do you **have** testers ?
+11. Do new candidates **write code** during their interview ?
+12. Do you do **hallway usability** testing ?
 
 The neat thing about The Joel Test is that it’s easy to get a quick yes or no to each question. You don’t have to figure out lines-of-code-per-day or average-bugs-per-inflection-point. Give your team 1 point for each “yes” answer. The bummer about The Joel Test is that you really shouldn’t use it to make sure that your nuclear power plant software is safe.
 
