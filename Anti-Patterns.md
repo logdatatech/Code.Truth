@@ -17,19 +17,19 @@ Another solution exists that is documented, repeatable, and proven to be effecti
 
 ## Organizational
 
-> [Analysis paralysis](https://en.wikipedia.org/wiki/Analysis_paralysis27s_law A project stalled in the analysis phase, unable to achieve support for any of the potential plans of approach
+> [Analysis paralysis](https://en.wikipedia.org/wiki/Analysis_paralysis) A project stalled in the analysis phase, unable to achieve support for any of the potential plans of approach
 
 > [Parkinson’s law of triviality](https://en.wikipedia.org/wiki/Parkinson%27s_law_of_triviality) Giving disproportionate weight to trivial issues
 
 > [Bleeding edge](https://en.wikipedia.org/wiki/Bleeding_edge) Operating with cutting-edge technologies that are still untested or unstable leading to cost overruns, under-performance or delayed delivery
 
-> [Bystander apathy](https://en.wikipedia.org/wiki/Bystander_apathy) The phenomenon in which people are less likely to or do not offer help to a person in need when others are present
+> [Bystander apathy](https://en.wikipedia.org/wiki/Bystander_apathy) phenomenon where people are less likely or do not offer help to a person in need when others are present
 
 > [Cash cow](https://en.wikipedia.org/wiki/Cash_cow) A profitable legacy product that often leads to complacency about new products
 
 > [Design by committee](https://en.wikipedia.org/wiki/Design_by_committee) The result of having many contributors to a design, but no unifying vision
 
-> [Escalation of commitment](https://en.wikipedia.org/wiki/Escalation_of_commitment) Failing to revoke a decision when it proves wrong
+> [Escalation of commitment](https://en.wikipedia.org/wiki/Escalation_of_commitment) Failing to revoke a decision when it proves to be wrong
 
 > [Groupthink](https://en.wikipedia.org/wiki/Groupthink) A collective state where group members begin to (often unknowingly) think alike and reject differing viewpoints
 
