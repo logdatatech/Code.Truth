@@ -2,19 +2,42 @@
 
 # Restructuring Visual Basic code
 
-You can greatly improve the quality of existing code by restructuring it. By restructuring we mean arranging the code in logical modules and classes, grouping related functions and data together, and using scope rules to achieve better legibility and maintainability.
-Spaghetti may be delicious, but not when you find it in your code. It's often necessary to rewrite code to reuse it, to understand how it works, to modify it, or to throw away unnecessary code and write new functionality. Let's learn a few simple ways to restructure code to achieve better quality.
-In this article:
+<!-- TOC -->
 
-## [Add modularity](#howto-add-modularity)
+- [Restructuring Visual Basic code](#restructuring-visual-basic-code)
+  - [Add modularity](#add-modularity)
+  - [Go object-oriented](#go-object-oriented)
+  - [Encapsulate data access](#encapsulate-data-access)
+  - [Limit visibility by scoping](#limit-visibility-by-scoping)
+    - [HOWTO Add Modularity](#howto-add-modularity)
+      - [Suggested Module Names](#suggested-module-names)
+      - [Suggested Module Naming Schemes](#suggested-module-naming-schemes)
+    - [HOWTO Go object-oriented](#howto-go-object-oriented)
+      - [Convert a module to a class](#convert-a-module-to-a-class)
+    - [HOWTO Encapsulate data access](#howto-encapsulate-data-access)
+    - [HOWTO Limit visibility by scoping](#howto-limit-visibility-by-scoping)
+
+<!-- /TOC -->
 
 <!-- @NK experimenting with internal anchors vs TOC -->
 
-## Go object-oriented
+You can greatly improve the quality of existing code by restructuring it.
 
-## Encapsulate data access
+By restructuring we mean arranging the code in logical modules and classes, grouping related functions and data together, and using scope rules to achieve better legibility and maintainability.
 
-## Limit visibility by scoping
+Spaghetti may be delicious, but not when you find it in your code. It's often necessary to rewrite code to reuse it, to understand how it works, to modify it, or to throw away unnecessary code and write new functionality. Let's learn a few simple ways to restructure code to achieve better quality.
+
+## [Add modularity](#howto-add-modularity)
+
+## [Go object-oriented](#howto-Go-object-oriented)
+
+## [Encapsulate data access](#howto-Encapsulate-data-access)
+
+## [Limit visibility by scoping](#howto-limit-visibility-by-scoping)
+
+---
+
+### HOWTO Add Modularity
 
 Think of a module as a group of related procedures. What you'd want to do is to find groups of procedures that belong together, and put them all to a single module.
 
@@ -23,6 +46,14 @@ The goal is to minimize the number of dependencies between modules. When a modul
 So how do you find a group of related procedures? That's a tough question. If you know your code (and you should), you probably already have an idea which procedures are related. Now, find out which procedures call these procedures, and where the calls eventually lead to. A call tree is your primary source of calls/called by information. Another thing to consider are the variables, constants and other elements required. PA
 
 There's no single solution to the module division problem. It's more like a trade-off between minimal coupling and optimal module size. You don't want to group all of your procedures into a single giant module, even though that minimizes coupling. It's better to get an idea of a good module size. You'd want modules to contain, say, max 30 procedures (that's not a recommendation, just an example). If the module becomes larger, you might want to consider splitting it into two - even if it increases coupling.
+
+#### Suggested Module Names
+
+- AllPublicDeclarations (Shows Top of Module list)
+
+#### Suggested Module Naming Schemes
+
+- mod%TheRest%
 
 ### HOWTO Go object-oriented
 
@@ -86,18 +117,18 @@ Private mAge As Integer ' Encapsulated variable
 
 ' Accessor property to retrieve the value
 Public Property Get Age() As Integer
-Age = mAge
+    Age = mAge
 End Property
 
 ' Accessor property to set the value, verifying that
 ' the value is in pre-defined limits
 Public Property Let Age(ByVal newAge As Integer)
-If newAge >= 0 And newAge <= 130 Then
-mAge = newAge
-Else
-' Age not in limits, raise a customer error
-Err.Raise 12345, "MyClass.Age [Let]", "Invalid age"
-End If
+    If newAge >= 0 And newAge <= 130 Then
+        mAge = newAge
+    Else
+        ' Age not in limits, raise a customer error
+        Err.Raise 12345, "MyClass.Age [Let]", "Invalid age"
+    End If
 End Property
 ```
 
