@@ -33,7 +33,7 @@ Another solution exists that is documented, repeatable, and proven to be effecti
 
 > [Groupthink](https://en.wikipedia.org/wiki/Groupthink) A collective state where group members begin to (often unknowingly) think alike and reject differing viewpoints
 
-> [Management by objectives](https://en.wikipedia.org/wiki/Management_by_objectives) ([SAFe](https://en.wikipedia.org/wiki/SAFe)) Management by numbers, focus exclusively on quantitative management criteria, when these are non-essential or cost too much to acquire
+> [Management by objectives](https://en.wikipedia.org/wiki/Management_by_objectives) Management by numbers, focus exclusively on quantitative management criteria, when these are non-essential or cost too much to acquire
 
 > [Micromanagement](https://en.wikipedia.org/wiki/Micromanagement) Ineffectiveness from excessive observation, supervision, or other hands-on involvement from management
 
@@ -47,7 +47,7 @@ Another solution exists that is documented, repeatable, and proven to be effecti
 
 > [Stovepipe (organisation)](<https://en.wikipedia.org/wiki/Stovepipe_(organisation)>) An organizational structure of isolated or semi-isolated teams, in which too many communications take place up and down the hierarchy, rather than directly with other teams across the organization
 
-> [Typecasting (acting)](<https://en.wikipedia.org/wiki/Typecasting_(acting)>) Locking successful employees into overly [SAFe](https://en.wikipedia.org/wiki/SAFe), narrowly defined, predictable roles based on their past successes rather than their potential
+> [Typecasting (acting)](<https://en.wikipedia.org/wiki/Typecasting_(acting)>) Locking successful employees into overly safe, narrowly defined, predictable roles based on their past successes rather than their potential
 
 > [Vendor lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in) Making a system excessively dependent on an externally supplied component
 
@@ -55,7 +55,7 @@ Another solution exists that is documented, repeatable, and proven to be effecti
 
 > [Cart before the horse](https://en.wikipedia.org/wiki/Cart_before_the_horse) Focusing too many resources on a stage of a project out of its sequence
 
-> [Death march (software development)](<https://en.wikipedia.org/wiki/Death_march_(software_development)>) A project whose staff, while expecting it to fail, are compelled to continue, often with much overwork, by management which is in denial[](https://en.wikipedia.org/wiki/Anti-pattern)
+> [Death march (software development)](https://en.wikipedia.org/wiki/Death_march_(software_development)) A project whose staff, while expecting it to fail, are compelled to continue, often with much overwork, by management which is in denial
 
 > [Ninety-ninety rule](https://en.wikipedia.org/wiki/Ninety-ninety_rule) Tendency to underestimate the amount of time to complete a project when it is "nearly done"
 
@@ -71,7 +71,7 @@ Another solution exists that is documented, repeatable, and proven to be effecti
 
 ## Software design
 
-> [[Abstraction principle (computer programming)](<https://en.wikipedia.org/wiki/Abstraction_principle_(computer_programming)>) inversion](https://en.wikipedia.org/wiki/[Abstraction principle (computer programming)](https://en.wikipedia.org/wiki/Abstraction_principle_(computer_programming))\_inversion) Not exposing implemented functionality required by callers of a function/method/constructor, so that the calling code awkwardly re-implements the same functionality in terms of those calls
+> [[Abstraction principle (computer programming)](https://en.wikipedia.org/wiki/Abstraction_principle_(computer_programming)),[Abstraction principle (computer programming)](https://en.wikipedia.org/wiki/Abstraction_principle_(computer_programming))) Not exposing implemented functionality required by callers of a function/method/constructor, so that the calling code awkwardly re-implements the same functionality in terms of those calls
 
 > [Ambiguous viewpoint](https://en.wikipedia.org/wiki/Ambiguous_viewpoint) Presenting a model (usually [Object-oriented analysis and design](https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design) (OOAD)) without specifying its viewpoint
 
@@ -93,7 +93,7 @@ Another solution exists that is documented, repeatable, and proven to be effecti
 
 > [Stovepipe system](https://en.wikipedia.org/wiki/Stovepipe_system) A barely maintainable assemblage of ill-related components
 
-> Inside Out: Publishing the internal model to the outside world
+> [Inside Out](https://dzone.com/articles/outside-in-or-inside-out) Publishing the internal model to the outside world
 
 ## Object-oriented programming
 
@@ -127,7 +127,7 @@ Another solution exists that is documented, repeatable, and proven to be effecti
 
 > [Boat anchor (computer science)](<https://en.wikipedia.org/wiki/Boat_anchor_(computer_science)>) Retaining a part of a system that no longer has any use
 
-> [Busy waiting](https://en.wikipedia.org/wiki/Busy_waiting) Consuming [CPU](HTTPS://EN.WIKIPEDIA.ORG/WIKI/CPU) while waiting for something to happen, usually by repeated checking instead of messaging
+> [Busy waiting](https://en.wikipedia.org/wiki/Busy_waiting) Consuming CPU while waiting for something to happen, usually by repeated checking instead of messaging
 
 > [Caching failure](https://en.wikipedia.org/wiki/Caching_failure) Forgetting to clear a cache that holds a negative result (error) after the error condition has been corrected
 
@@ -135,15 +135,15 @@ Another solution exists that is documented, repeatable, and proven to be effecti
 
 > [Coding by exception](https://en.wikipedia.org/wiki/Coding_by_exception) Adding new code to handle each special case as it is recognized
 
-> [Design pattern](https://en.wikipedia.org/wiki/Design_pattern) The use of patterns has itself been called an anti-pattern, a sign that a system is not employing enough [Abstraction principle (computer programming)](<https://en.wikipedia.org/wiki/Abstraction_principle_(computer_programming)>)[](https://en.wikipedia.org/wiki/Anti-pattern)
+> [Design pattern](https://en.wikipedia.org/wiki/Design_pattern) The use of patterns has itself been called an anti-pattern, a sign that a system is not employing enough [Abstraction principle (computer programming)](<https://en.wikipedia.org/wiki/Abstraction_principle_(computer_programming)>)
 
-> [Error hiding](https://en.wikipedia.org/wiki/Error_hiding) Catching an error message before it can be shown to the user and either showing nothing or showing a meaningless message. This anti-pattern is also named Diaper Pattern. Also can refer to erasing the [Stack trace](https://en.wikipedia.org/wiki/Stack_trace) during exception handling, which can hamper debugging.
+> [Error hiding](https://en.wikipedia.org/wiki/Error_hiding) Catching an error message before it can be shown to the user and either showing nothing or showing a meaningless message. This anti-pattern is also named **Diaper Pattern**. Also can refer to erasing the [Stack trace](https://en.wikipedia.org/wiki/Stack_trace) during exception handling, which can hamper debugging.
 
 > [Hard code](https://en.wikipedia.org/wiki/Hard_code) Embedding assumptions about the environment of a system in its implementation
 
-> [[Spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code)](https://en.wikipedia.org/wiki/Spaghetti_code) Programs whose structure consists of too many layers of inheritance
+> [Spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code)](https://en.wikipedia.org/wiki/Spaghetti_code) Programs whose structure consists of too many layers of inheritance, Programs whose structure is barely comprehensible, especially because of misuse of code structures
 
-> [Lava flow (programming)](<https://en.wikipedia.org/wiki/Lava_flow_(programming)>) Retaining undesirable (redundant or low-quality) code because removing it is too expensive or has unpredictable consequences[](https://en.wikipedia.org/wiki/Anti-pattern)[](https://en.wikipedia.org/wiki/Anti-pattern)
+> [Lava flow (programming)](<https://en.wikipedia.org/wiki/Lava_flow_(programming)>) Retaining undesirable (redundant or low-quality) code because removing it is too expensive or has unpredictable consequences
 
 > [Loop-switch sequence](https://en.wikipedia.org/wiki/Loop-switch_sequence) Encoding a set of sequential steps using a switch within a loop statement
 
@@ -159,7 +159,6 @@ Another solution exists that is documented, repeatable, and proven to be effecti
 
 > [Softcoding](https://en.wikipedia.org/wiki/Softcoding) Storing [Business logic](https://en.wikipedia.org/wiki/Business_logic) in configuration files rather than source code[](https://en.wikipedia.org/wiki/Anti-pattern)
 
-> [Spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code) Programs whose structure is barely comprehensible, especially because of misuse of code structures
 
 ## Methodological
 
