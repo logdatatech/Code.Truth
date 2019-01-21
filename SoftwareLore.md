@@ -180,11 +180,13 @@ The phrase was first used by Fred Brooks in his book The Mythical Man-Month, fir
 
 ## Occam's Razor
 
-This widely-known adage dates to a philosopher and friar from the fourteenth century named [William of Ockham](https://en.wikipedia.org/wiki/William_of_Ockham). [Occam's Razor](https://en.wikipedia.org/wiki/Occam%27s_razor) is often stated as:
+This widely-known adage dates to a philosopher and friar from the fourteenth century named [William of Ockham]
+He actually said "Entia non sunt multiplicanda praeter necessitate."
+(https://en.wikipedia.org/wiki/William_of_Ockham). [Occam's Razor](https://en.wikipedia.org/wiki/Occam%27s_razor) is often stated as:
 
 > "Among competing hypotheses, the one with the fewest assumptions should be selected."
 
-## It's no surprise that the whole reason we can recall an adage from 600+ years ago is that it works so well. Occam's Razor is so basic, so fundamental, that it should be the first thing we think of when deciding between two competing theories. I'd even go so far as to argue that in the vast majority of cases, simpler is better.
+### It's no surprise that the whole reason we can recall an adage from 600+ years ago is that it works so well. Occam's Razor is so basic, so fundamental, that it should be the first thing we think of when deciding between two competing theories. I'd even go so far as to argue that in the vast majority of cases, simpler is better.
 
 ## Hanlon's Razor
 
@@ -304,7 +306,72 @@ The last law is one I totally made up I use to shorthand both Sayre's Law and Pa
 
 ---
 
-# General Comments on Softwar Lore ...
+## Laws of Computer Programming
+
+Any given program, when running, is obsolete.
+
+If a program is useless, it will have to be documented.
+
+If a program is useful, it will have to be changed.
+
+Any program will expand to fill any available memory.
+
+The value of a program is proportional to the weight of its output.
+
+Program complexity grows until it exceeds the capability of the programmer to maintain it.
+
+Make it possible for programmers to write in English and you will find that programmers cannot write in English.
+
+Bradley's Bromide: If computers get too powerful, we can organize them into a committee -- that will do them in.
+
+Weinberg's Law: If builders built buildings the way programmers wrote programs, the first woodpecker that came along would destroy civilization.
+
+Hoare's Law of Large Programs: Inside every large program is a small program struggling to get out.
+
+Adding manpower to a late software project makes it later.
+
+---
+
+## Laws of Simplicity
+
+Keep it simple, Stupid.
+
+Everything should be made as simple as possible, but no simpler.-----Albert Einstein
+
+There are two ways of constructing a software design: one way is to make it so simple that there are obviously no deficiencies and the other way is to make it so complicated that there are no obvious deficiencies.-----C.A.R. Hoare
+
+The price of reliability is the pursuit of utmost simplicity.-----C.A.R. Hoare
+
+---
+
+## Boundy Laws of Naming
+
+The wise programmer does not give two names to one thing nor attribute two things to one name.
+Names are meaningful and specific, and their length is proportional to their scope. A loop variable used only once in a two-statement loop may be called "i", but a global variable that may be used anywhere in the program will have a long name that accurately describes its usage.-----D. Boundy
+
+---
+
+## Laws of Managing
+
+Work expands to fill the time available.-----C.N. Parkinson
+
+In a hierarchy, every employee tends to rise to his level of incompetence.-----The Peter Principle
+
+The software project had to be abandoned, and with it, over thirty man-years of programming effort. "You know what went wrong? You let your programmers do things you yourself do not understand." How could one person ever understand the whole of a modern software product?-----C.A.R. Hoare
+
+## Laws of the Universe
+
+Ruckert's Law: There is nothing so small that it can't be blown out of proportion.
+
+Ringwald's Law of Household Geometry: Any horizontal surface is soon piled up on.
+
+Diner's Dilemma: A clean tie attracts the Soup of the Day.
+
+Thiessen's Law of Gastronomy: The hardness of the butter is in direct proportion to the softness of the roll.
+
+---
+
+# Final Comments on Software Lore ...
 
 You'll notice that many of the laws above don't directly apply specifically to software,
 and this is intentional. The fact remains that software is built for people to use and interact with,
