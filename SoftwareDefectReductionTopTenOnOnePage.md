@@ -15,7 +15,7 @@ That 80% value may be lower for smaller systems and higher for very large ones.
 
 ## FOUR - 80% of defects from 20% of modules and 50% are defect free
 
-Between 60 and 90% of defects arise from 20% of the modules, with median 80%, all defects cluster in half the modules produced.
+60 to 90% of defects arise from 20% of the modules, with median 80%, all defects cluster in 50% of modules.
 
 ## FIVE - 90% of the downtime comes from, at most, 10% of the defects
 
