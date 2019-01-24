@@ -7,8 +7,7 @@ NOTE: the cost-escalation factor for smaller, non critical software systems to b
 
 ## TWO - Current projects spend 40 to 50% of effort on avoidable rework
 
-Effort spent fixing software difficulties that should have been discovered earlier and fixed
-less expensively or avoided altogether.
+Effort spent fixing issues that should have been discovered earlier and fixed less expensively or avoided altogether.
 
 ## THREE - 80% of avoidable rework comes from 20% of the defects
 
@@ -16,11 +15,11 @@ That 80% value may be lower for smaller systems and higher for very large ones.
 
 ## FOUR - 80% of defects from 20% of modules and 50% are defect free
 
-Between 60 and 90% of the defects arise from 20% of the modules, with a median of about 80%, all defects cluster in about half the modules produced.
+Between 60 and 90% of defects arise from 20% of the modules, with median 80%, all defects cluster in half the modules produced.
 
 ## FIVE - 90% of the downtime comes from, at most, 10% of the defects
 
-Some defects disproportionately affect downtime and reliability. Failure Analysis of 9 large IBM software products revealed that 0.3% of the defects accounted for about 90% of the downtime.
+Defects can disproportionately affect downtime. Analysis of IBM software revealed that 0.3% of the defects caused 90% of downtime.
 
 ## SIX - Peer reviews catch 60% of the defects
 
@@ -36,7 +35,7 @@ Best practices are not to punish once the learning curve has been reached they r
 
 ## NINE - Costs 50% more to develop high-dependability software
 
-However, the investment is more than worth it if the  project involves significant operations and maintenance costs.
+However, the investment is more than worth it if the project involves significant operations and maintenance costs.
 
 ## TEN - 40 to 50% of user programs contain non-trivial defects
 
