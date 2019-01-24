@@ -19,7 +19,7 @@ Between 60 and 90% of defects arise from 20% of the modules, with median 80%, al
 
 ## FIVE - 90% of the downtime comes from, at most, 10% of the defects
 
-Defects can disproportionately affect downtime. Analysis of IBM software revealed that 0.3% of the defects caused 90% of downtime.
+Defects disproportionately affect downtime. Analysis of IBM software showed 0.3% of  defects caused 90% of downtime.
 
 ## SIX - Peer reviews catch 60% of the defects
 
