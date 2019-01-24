@@ -17,11 +17,13 @@ Aargh! I just inherited a mess of projects from a team who left the company 3 ye
 
 You don't need to be a trained Legacy Systems Archaeologist to overtake an existing project. The solution is legacy code analysis. This article introduces you to various legacy analysis techniques. It's written in a language-independent way. However, as we make code analysis tools, we've added some references to our own applications.
 
-## Why should I analyze legacy code?
+## Why should I analyze legacy code
 
-Maintain an existing application. Before changing a program, you should understand what it does. If you don't, you're likely to make bad fixes and introduce new errors.
+Maintain an existing application. Before changing a program, you should understand what it does. If you don't, you're likely to make bad fixes and introduce **new** errors.
 
-Document old code. Analyzing legacy code and documenting it as you go is good idea. Not only you learn what the code does, you will also help others learn it. Besides, you'll forget anyway. Without the docs, you'll have to analyze again next year.
+## Document old code
+
+Analyzing legacy code and documenting it as you go is good idea. Not only you learn what the code does, you will also help others learn it. Besides, you'll forget anyway. Without the docs, you'll have to analyze again next year.
 
 Determine reuse possibilities. See if the code can be turned to new uses by changing it. Find reusable components for other programs.
 
