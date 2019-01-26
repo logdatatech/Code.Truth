@@ -36,9 +36,36 @@ Markdown incorporates a handful of simple, fairly intuitive, and easy-to-use syn
 
 ---
 
+## Syntactically Correct - AutoPilot for Structure
+
+Markdown has Linters that can automatically apply several dozen powerful rule sets to a Markdown file.
+
+Rules like
+
+> MD012/no-multiple-blanks: Multiple consecutive blank lines [Expected: 1; Actual: 2]
+
+```python
+MD024 - Multiple headings with the same content
+Tags: headings, headers
+
+Aliases: no-duplicate-heading, no-duplicate-header
+
+Parameters: siblings_only, allow_different_nesting (boolean; default false)
+
+This rule is triggered if there are multiple headings in the document that have the same text:
+
+# Some text
+
+## Some text
+```
+
+When processed with automation and a little bit of rigour you essentially have a continuous integration for Documentation quality no need to multiple human review something that they do poorly.
+
+---
+
 ## More Reading on MarkDown
 
-https://www.toptal.com/web/markdown-the-writing-tool-for-software-developers/
+[toptal.com/web/markdown-the-writing-tool-for-software-developers/](https://www.toptal.com/web/markdown-the-writing-tool-for-software-developers/)
 
 <!-- TODO: Make the RegEx for Finding a Bare-URL and replacing with [$BARE-URL$]($BARE-URL$) -->
 
