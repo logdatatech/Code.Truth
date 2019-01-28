@@ -187,7 +187,7 @@ strategy for defect-reduction investments.
 
 ---
 
-# SEVEN
+## SEVEN
 
 > Perspective-based reviews catch 35 percent more defects than non-directed reviews.
 

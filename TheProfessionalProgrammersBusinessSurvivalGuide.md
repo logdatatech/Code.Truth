@@ -1,19 +1,20 @@
-# The professional programmer’s business survival guide (From PDF)
+# The professional programmers business survival guide
+
+<!-- (From PDF) -->
 
 > How to salvage a (nearly) hope less software project
 
 Like a carpenter called in to salvage a home repair gone wrong, developers who’ve been around the block are used to seeing a handful of the same problems.
 
-The code gets creaky; bug reports file at an ever-increasing clip; 
+The code gets creaky; bug reports file at an ever-increasing clip;
 
 the time spent maintaining the project surpasses any ability to add features to it.
 
-At a certain point, the question arises: Can you rehab the code,
-or should you scrap it and rebuild from the ground up?
+At a certain point, the question arises: Can you rehab the code, or should you scrap it and rebuild from the ground up?
+
 We talked with seasoned pros for insights on how
 they have addressed the most common types of software
-projects on the brink: Projects with runaway costs, poorly
-architected projects, ones that simply no longer work.
+projects on the brink: Projects with runaway costs, poorly architected projects, ones that simply no longer work.
 
 > Now let’s take a look at our fixer-uppers.
 
@@ -279,21 +280,13 @@ we did. And it worked.”
 New construction always leads to some settling.
 The pipes rattle. The beams creak. But when
 it keeps happening, you may start to wonder:
-Is this normal, or does it need repair? 
-In some cases,
-managers see
-an outside
-firm as the
-solution to fix
-the problem, but
-consultants
-can compound
-the errors
-if the software’s
-purpose isn’t clearly
-articulated by
-those doing
-the hiring.
+Is this normal, or does it need repair?
+
+In some cases, managers see an outside firm as the
+solution to fix the problem, but
+consultants can compound the errors if the software’s
+purpose isn’t clearly articulated by those doing the hiring.
+
 “Here’s the litmus test:
 If you’re spending more
 time on bugs than you are
@@ -388,8 +381,7 @@ article
 distress
 call.”
 
-
-# Here are 14 nightmare clients you may encounter
+## Here are 14 nightmare clients you may encounter
 
 in a client-based profession like software
 development is recognizing the signals of
@@ -779,6 +771,8 @@ was the real monster in that story, and that is
 what to watch out for in a client.
 
 > Has your client asked you to take questionable shortcuts ?
+
+and
 
 > Has your client spouted morally ambiguous principles, eternally emphasized results-now and don’t-care-how approaches with zero remorse or responsibility for cleaning up the resulting mess ?
 

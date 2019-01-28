@@ -1,4 +1,5 @@
-# 7 timeless lessons of programming ‘graybeards’
+
+# 7 Timeless Lessons of Programming Greybeards
 
 Heed the wisdom of your programming elders, or suffer the consequences of fundamentally flawed code
 
@@ -67,12 +68,13 @@ On one project, I ran into trouble with an issue exactly like Richard in "Silico
 
 Algorithm complexity is one thing that college courses in computer science do well. Alas, many high school kids haven't picked this up while teaching themselves Ruby or CoffeeScript in a weekend. Complexity analysis may seem abstruse and theoretical, but it can make a big difference as projects scale. Everything looks great when n is small. Exactly as code can run quickly when there's enough memory, bad algorithms can look zippy in testing. But when the users multiply, it's a nightmare to wait on an algorithm that takes O(n^2) or, even worse, O(n^3).
 
-
-https://www.infoworld.com/article/2891806/application-development/7-timeless-lessons-of-programming-graybeards.html  
+<!-- https://www.infoworld.com/article/2891806/application-development/7-timeless-lessons-of-programming-graybeards.html   -->
 \+
-https://www.infoworld.com/article/3056600/application-development/5-more-timeless-lessons-of-programming-graybeards.html
+<!-- https://www.infoworld.com/article/3056600/application-development/5-more-timeless-lessons-of-programming-graybeards.html -->
 
-# 5 more timeless lessons of programming 'graybeards'
+---
+
+## 5 more timeless lessons of programming 'graybeards'
 
 Youth may be what HR wants, but nobody bangs out code like a longtime programming pro.
 

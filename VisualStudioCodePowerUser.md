@@ -3,6 +3,23 @@
 
 ## Layered Config Files
 
+### settings.json the Master
+
+Path %...
+
+#### extension level
+
+A Best Practice for sanity is to Comment each block.
+
+
+### Folder Level Workspace ... files
+
+?
+
+### Workspace ... files
+
+... 
+
 ## Disable Completely Unused Extensions
 
 "@builtin " in the Extensions Search Box

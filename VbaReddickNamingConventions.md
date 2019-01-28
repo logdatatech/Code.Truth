@@ -3,6 +3,10 @@
 
 # RVBA Naming Conventions
 
+Companion [Coding Document](./VbaReddickCodingConventions.md)
+
+An alternate standard [wikipedia.org/wiki/Leszynski_naming_convention](https://en.wikipedia.org/wiki/Leszynski_naming_convention) particularly popular amongst Access programmers.
+
 Introduction
 Changes to the Conventions
 An Introduction to Hungarian

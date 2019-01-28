@@ -1,6 +1,6 @@
-# 7 programming languages we love to hate -- but can’t live without
+# 7 languages we love to hate but can not live without
 
-https://www.infoworld.com/article/3072163/application-development/7-programming-languages-we-love-to-hate-but-cant-live-without.html
+<!-- https://www.infoworld.com/article/3072163/application-development/7-programming-languages-we-love-to-hate-but-cant-live-without.html -->
 
 Tools masquerading as languages, maddening syntax, dusty code that won’t die -- here's what has us shaking our fists
 
@@ -15,6 +15,7 @@ And we often can’t do anything about it. The installed base may be too large f
 Following are seven programming languages we love to hate but can’t live without.
 
 ## Language we love to hate: C
+
 There are so many issues with a language that might better be called “portable assembler” than a full computer language. Does anyone like writing separate header files? Has anyone used the preprocessor for something elaborate without going slightly mad?
 
 In theory, we’re supposed to be able to use the power of the pointer arithmetic to do superclever feats, but does anyone risk doing more than allocating data structures? Is it even a good idea to be too clever with pointers? That’s how code starts to break. If you’re able to be clever, it often requires writing a very long comment to document it, pretty much sucking up all the time you saved being clever. Can anyone remember all the rules for writing C code to avoid adding all the possible security holes, like buffer overruns?

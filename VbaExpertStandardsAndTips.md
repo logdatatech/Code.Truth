@@ -15,3 +15,7 @@ Moreover, elegant code is usually the result of careful analysis of the problem 
 which simplifies the code greatly (and often speeds it up too).
 
 <!-- https://www.spreadsheet1.com/vba-expert.html -->
+
+More Reading Here ...
+
+[](/.)

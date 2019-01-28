@@ -27,11 +27,11 @@ Yet you sometimes do end up creating WOC. The problem is that when you start wri
 
 The friend of ROC is refactoring: coming back after you finally and fully understand the code and rewriting it to make the code read better -- but without adding or changing functionality. The problem is that you'd have to be an idiot to do that.
 
-You have a bug-to-code ratio: x number of changes lead to y number of bugs.
+You have a bug-to-code ratio: `x` number of changes lead to `y` number of bugs.
 
 Refactoring your code to make it better just gives you a whole new opportunity to introduce a bug. And, if your boss asks why you made a change that introduced a bug and you say that it wasn't to make the code run faster or to eliminate some problem … Well, what sort of shape is your resume in ?
 
-Refactoring is only reasonable if you're doing test-driven development (TDD).
+> Refactoring is only reasonable if you're doing test-driven development (TDD).
 
 With TDD, you're one click and a few seconds away from re-executing all of your tests to prove that your code still does what it did before you made it "better." And if one of your tests fails, you have choices: you can fix the failure, or click undo a couple of times to back out of your change. (Or just skip checking your code back in -- you did check your code in before starting to refactor it, didn't you?)
 
@@ -41,4 +41,4 @@ The technological partner to ROC (refactoring) and TDD are better tools to disco
 
 Ignoring end-user documentation, documentation is, at best, a necessary task rather than a value-added task. As a result, reducing the time spent on documentation frees up time for value-added tasks. Your goal as a software developer should, therefore, be threefold: Reduce the amount of documentation you produce; adopt tools and practices that generate ROC; and adopt analysis tools that will make it easier to discover the reality of your applications.
 
-One last note: To be honest (and don't tell anyone about this), in my heart of hearts I suspect that I believe that anyone who hasn't read "The Elements of Programming Style" shouldn't be allowed to write code. There are people who say I'm too judgemental -- but they're just wrong.
+One last note: To be honest (and don't tell anyone about this), in my heart of hearts I suspect that I believe that anyone who hasn't read [The Elements of Programming Style](https://www.amazon.com/Elements-Programming-Style-2nd/dp/0070342075/) shouldn't be allowed to write code. There are people who say I'm too judgemental -- but they're just wrong.

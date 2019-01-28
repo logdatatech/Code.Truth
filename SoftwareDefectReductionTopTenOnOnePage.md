@@ -1,5 +1,5 @@
 
-# Software Defect Reduction Top 10 On A Page
+# Software Defect Reductions On A Page
 
 ## ONE - Finding and fixing problems after delivery is 100 times more expensive during requirements and design phase
 

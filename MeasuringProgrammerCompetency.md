@@ -1,10 +1,10 @@
 # Measuring programmer competency
 
-https://softwareefficiency.wordpress.com/2015/09/20/measuring-programmer-competency/
+One way is to ask them which books they have read to improve their craft. [BookShelf Porn For Programmers](./BookShelfPornForProgrammers.md) if they haven't read more than three of these books it's a **red flag**.
+
+<!-- https://softwareefficiency.wordpress.com/2015/09/20/measuring-programmer-competency/ -->
 
 As programmers it is easy to be arrogant about our skills. A lot of programmers have a prima donna complex. With a lot of consultants it even seems to be a requirement. Nobody likes a consultant that is uncertain. Right?
-
-With a general tendency to discard any sort of measurement we thrive on subjective opinions on who’s a true scotsman.
 
 In my search to some way of measuring how good a programmer I am, I found this exquisite website: Programmer competence matrix.
 
@@ -50,7 +50,7 @@ High: Proficient in using SVN features. Knows how to branch and merge,use patche
 
 Pro: Knowledge of distributed VCS systems. Has tried out Bzr/Mercurial/Darcs/Git
 
-This really isn’t something the developer has a lot of options in. Either their employer uses proper version control or they don’t. 
+This really isn’t something the developer has a lot of options in. Either their employer uses proper version control or they don’t.
 
 > BUILD AUTOMATION
 
@@ -70,7 +70,7 @@ high: Has written code in TDD manner
 
 Pro: Understands and is able to setup automated functional, load/performance and UI tests
 
-I find that writing good unit tests is important for any software developer. Load/performance tests are more of the task of a good quality engineer. 
+I find that writing good unit tests is important for any software developer. Load/performance tests are more of the task of a good quality engineer.
 
 > PROBLEM DECOMPOSITION
 
@@ -110,7 +110,7 @@ High: Code is grouped into regions and well commented with references to other s
 
 Pro: File has license header, summary, well commented, consistent white space usage. The file should look beautiful.
 
-I barely see programmers that have time to add license headers and a summary to each file. I’d love to have this though. Count me in.  
+I barely see programmers that have time to add license headers and a summary to each file. I’d love to have this though. Count me in.
 
 With the IDEs these days files can be formatted automatically. So extra credit for people who know the format button. Code grouping is also fairly hard. You can group functions according to different aspects. That’s why good IDEs have proper navigation tools for that.
 
@@ -118,31 +118,31 @@ With the IDEs these days files can be formatted automatically. So extra credit f
 
 Medium: Related files are grouped into a folder
 
-High:Each physical file has a unique purpose, for e.g. one class definition, one feature implementation etc.
+High: Each physical file has a unique purpose, for e.g. one class definition, one feature implementation etc.
 
 Pro: Code organization at a physical level closely matches design and looking at file names and folder distribution provides insights into design
 
-As for one class definition in one file, this is required in some languages like java. Most of this depends on what is imposed from higher end. Programmers tend to keep these habits. 
+As for one class definition in one file, this is required in some languages like java. Most of this depends on what is imposed from higher end. Programmers tend to keep these habits.
 
 > SOURCE TREE ORGANIZATION
 
-Medium:Basic separation of code into logical folders.
+Medium: Basic separation of code into logical folders.
 
-High:No circular dependencies, binaries, libs, docs, builds, third-party code all organized into appropriate folders
+High: No circular dependencies, binaries, libs, docs, builds, third-party code all organized into appropriate folders
 
 Pro: Physical layout of source tree matches logical hierarchy and organization. The directory names and organization provide insights into the design of the system.
 
-Programmers don’t get a lot of practice here. They are to adopt the company standard. 
+Programmers don’t get a lot of practice here. They are to adopt the company standard.
 
 > CODE READABILITY
 
 Medium: Good names for files, variables classes, methods etc.
 
-High: No long functions, comments explaining unusual code, bug fixes, code assumptions
+High: No long functions, comments explaining unusual code, bug fixes, code assumptions.
 
-Pro: Code assumptions are verified using asserts, code flows naturally – no deep nesting of conditionals or methods
+Pro: Code assumptions are verified using asserts, code flows naturally – no deep nesting of conditionals or methods.
 
-To me this is spot-on. In my humble opinion **this is the most important aspect**. 
+To me this is spot-on. In my humble opinion **this is the most important aspect**.
 
 > DEFENSIVE CODING
 
@@ -156,9 +156,9 @@ Defensive coding is not taught by most programming courses and your skill may de
 
 > ERROR HANDLING
 
-Medium: Basic error handling around code that can throw exceptions/generate errors
+Medium: Basic error handling around code that can throw exceptions/generate errors.
 
-High: Ensures that error/exceptions leave program in good state, resources, connections and memory is all cleaned up properly
+High: Ensures that error/exceptions leave program in good state, resources, connections and memory is all cleaned up properly.
 
 Pro: Codes to detect possible exception before, maintain consistent exception handling strategy in all layers of code, come up with guidelines on exception handling for entire system.
 
@@ -184,9 +184,9 @@ Knowing API details by heart has been obsoleted by auto-completion.(unless of co
 
 > REQUIREMENTS
 
-Medium: Come up with questions regarding missed cases in the spec
+Medium: Come up with questions regarding missed cases in the specification
 
-High: Understand complete picture and come up with entire areas that need to be speced
+High: Understand complete picture and come up with entire areas that need to be specified
 
 Pro: Able to suggest better alternatives and flows to given requirements based on experience
 

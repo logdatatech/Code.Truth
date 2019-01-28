@@ -3,6 +3,8 @@
 
 # RVBA Coding Conventions
 
+Companion [Naming Document](./VbaReddickNamingConventions.md)
+
 Introduction
 Arrays
 Assertions

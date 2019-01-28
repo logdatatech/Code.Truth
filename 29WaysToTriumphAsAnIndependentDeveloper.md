@@ -2,7 +2,7 @@
 
 > Above all, understand and accept that “going independent” means “starting a business,” and a business is very different from a job.
 
-# 1 Know why you’re doing this
+## 1 Know why you’re doing this
 
 Before you write that letter of resignation,
 think about why you want to become an

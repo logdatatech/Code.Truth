@@ -1,8 +1,8 @@
-# Top Five (Wrong) Reasons You Don’t Have Testers
+# Top Five (Wrong) Reasons You Do not Have Testers
 
-https://www.joelonsoftware.com/2000/04/30/top-five-wrong-reasons-you-dont-have-testers/
+<!-- https://www.joelonsoftware.com/2000/04/30/top-five-wrong-reasons-you-dont-have-testers/ -->
 
-## 1. Bugs come from lazy programmers.
+## 1. Bugs come from lazy programmers
 
 “If we hire testers”, this fantasy goes, “the programmers will get sloppy and write buggy code. By avoiding testers, we can force the programmers to write correct code in the first place.”
 
@@ -10,11 +10,11 @@ Sheesh. If you think that, you either have never written code, or you are remark
 
 When I was writing code at Juno, I tended to exercise my code the same way every time … I used my own habits, relying on the mouse a lot. Our marvellous, vastly overqualified tester had slightly different habits: she did more things with the keyboard (and actually rigorously tested the interface using every possible combination of inputs). This quickly uncovered a whole slew of bugs. In fact at times she actually told me that the interface flatly didn’t work, 100% did not work, even though it always worked for me. When I watched her repro the bug I had one of those whack-your-forehead moments. Alt! You’re holding down the Alt Key! Why didn’t I test that?
 
-## 2. My software is on the web. I can fix bugs in a second.
+## 2. My software is on the web. I can fix bugs in a second
 
 Bwa ha ha ha ha! OK, it’s true, web distribution lets you distribute bug fixes much faster than the old days of packaged software. But don’t underestimate the cost of fixing a bug, even on a web site, after the project has already frozen. For one thing, you may introduce even more bugs when you fix the first one. But a worse problem is that if you look around at the process you have in place for rolling out new versions, you’ll realize that it may be quite an expensive proposition to roll out fixes on the web. Besides the bad impression you will make, which leads to:
 
-## 3. My customers will test the software for me.
+## 3. My customers will test the software for me
 
 Ah, the dreaded “Netscape Defense”. This poor company did an almost supernatural amount of damage to its reputation through their “testing” methodology:
 
@@ -31,7 +31,7 @@ Of those zillions of bug reports, I would bet that almost all of them were about
 
 The worst thing about this form of testing is the remarkably bad impression you will make of your company. When Userland released the first Windows version of their flagship Frontier product, I downloaded it and started working through the tutorial. Unfortunately, Frontier crashed several times. I was literally following the instructions exactly as they were printed in the tutorial, and I just could not get more than 2 minutes into the program. I felt like nobody at Userland had even done the minimum amount of testing, making sure that the tutorial works. The low perceived quality of the product turned me off of Frontier for an awfully long time.
 
-## 4. Anybody qualified to be a good tester doesn’t want to work as a tester.
+## 4. Anybody qualified to be a good tester doesn’t want to work as a tester
 
 This one is painful. It’s very hard to hire good testers.
 
