@@ -1,27 +1,27 @@
 
-# Legacy Systems Archaeology
+# VBA Legacy Code Analysis/Archaeology
 
-<!-- http://www.aivosto.com/articles/legacycode.html -->
+<!-- ORIGIN:http://www.aivosto.com/articles/legacycode.html -->
 
-## Legacy code analysis
+## Deliverables
 
 * Cross-references
-* call trees
-* called-by lists
-* flowcharts
-* metrics
+* Call trees
+* Called-By lists
+* Flowcharts (for Non Trivial/Self Documenting)
+* Metrics
 
 Are all useful techniques for understanding existing legacy applications.
 
-Aargh! I just inherited a mess of projects from a team who left the company 3 years ago. I can't even touch that code without breaking anything. What do I do know?
+> Aargh! I just inherited a mess of projects from a team who left the company 3 years ago. I can't even touch that code without breaking anything. What do I do know?
 
-You don't need to be a trained Legacy Systems Archaeologist to overtake an existing project. The solution is legacy code analysis. This article introduces you to various legacy analysis techniques. It's written in a language-independent way. However, as we make code analysis tools, we've added some references to our own applications.
+You don't need to be a trained Legacy Systems Archaeologist to overtake an existing project. The solution is legacy code analysis. This article introduces you to various legacy analysis techniques.
 
 ## Why should I analyze legacy code
 
-Maintain an existing application. Before changing a program, you should understand what it does. If you don't, you're likely to make bad fixes and introduce **new** errors.
+Maintain an existing application. Before changing a program, you must understand what it does. If you don't, you're likely to make bad fixes and introduce **new** errors.
 
-## Document old code
+## Document Old code
 
 Analyzing legacy code and documenting it as you go is good idea. Not only you learn what the code does, you will also help others learn it. Besides, you'll forget anyway. Without the docs, you'll have to analyze again next year.
 
@@ -33,7 +33,7 @@ Refactor or restructure. Fix here and there. You don't necessarily need to rewri
 
 ## Techniques for legacy code analysis
 
-Efficient legacy analysis requires lots of code reading. Here we assume that all the old developers have left the company and left no documentation whatsoever. All you have is the code.
+Efficient legacy analysis requires **lots** of code reading. Here we assume that all the old developers have left the company and left no documentation whatsoever. All you have is the code.
 
 Code analysis is a time-consuming task. To focus on the brainwork and and not the manual side of it, consider the use of automated code analyzers. Based on the source code, they can extract lots of the information for you to process.
 
@@ -63,7 +63,8 @@ PA Project Analyzer shows procedure calls and called-by information. Select a pr
 
 ## Draw flow charts to understand the logic
 
-A flow chart visualizes the conditional branches, loops and jumps. You can draw flow charts manually or use Visustin for automated diagramming.
+A flow chart visualizes the conditional branches, loops and jumps. You can draw flow charts manually (bad)
+or use [Visustin](http://www.aivosto.com/visustin/help/info.html) (good) for automated diagramming.
 
 Understand variables
 
@@ -83,7 +84,7 @@ PA Project Analyzer shows you variable cross-reference information. Right-click 
 
 Constants and enumeration constants should not be overlooked. Are they given the correct values in the first place? Where are they actually used? Are there any unused dead constants? Does the program define the same constant over and over again, possibly with differing values each time?
 
-PA Project Analyzer lists constants for you and determines whether they are used or dead. Right-click a constant to access the list of use locations.
+[PA Project Analyzer](http://www.aivosto.com/project/vba.html) lists constants for you and determines whether they are used or dead. Right-click a constant to access the list of use locations.
 
 ## Understand module dependencies
 
@@ -117,32 +118,38 @@ PA Project Analyzer shows module dependencies with graphical views. Its Project 
 
 If you're faced with a large amount of unknown code, it helps to know what the important code locations are. Here are some tips to find crucial code.
 
+[wikipedia.org/Programming_complexity](https://en.wikipedia.org/wiki/Programming_complexity)
+
 Find the largest modules and procedures. Simply sort them by the number of lines or statements and pick the biggest ones. Big code does big things, usually.
 
-## Find the most used procedures
+### Find the most used procedures
 
-If a procedure has 50 callers, it should be important. The number of callers is the structural fan-in metric (SFIN).
+If a procedure has 50 callers, it should be important. The number of callers is the [structural fan-in metric](https://www.aivosto.com/project/help/pm-sf.html) **(SFIN)**.
 
-## Find the complex procedures
+### Find the complex procedures
 
-A procedure with a large number of branches or deeply nested conditionals is a complex one. Often, a complex procedure contains lots of internal logic, indicating it does important tasks. The metrics in question are the cyclomatic complexity (CC) and depth of conditional nesting (DCOND).
+A procedure with a large number of branches or deeply nested conditionals is a complex one. Often, a complex procedure contains lots of internal logic, indicating it does important tasks.
 
-## Find the procedures that execute the most code
+The metrics in question are the [cyclomatic complexity (CC)](https://www.aivosto.com/project/help/pm-complexity.html) and depth of conditional nesting (DCOND).
+
+### Find the procedures that execute the most code
 
 A procedure at the top of its call tree executes the most code in that tree. This is because it executes each sub-procedure and itself. When you count the lines in the call tree (LLOCt) and sort the procedures by this metric, you can spot the entry procedures into the system.
 
-## Find the data-intensive procedures
+### Find the data-intensive procedures
 
 A procedure that reads and writes lots of data is a likely stress point in the system.
 
 You measure the data flow in terms of information
-fan-in (IFIN),
-fan-out (IFOUT), 
-fan-in * fan-out (IFIO) and informational complexity (IC1). 
+
+- fan-in (IFIN),
+- fan-out (IFOUT), 
+- fan-in * fan-out (IFIO) and 
+- informational complexity (IC1). 
 
 Procedures with high informational values are data-intensive and worth a look.
 
-## Find the most connected modules
+### Find the most connected modules
 
 A module that connects to other modules may be really important for the functionality of the system.
 
@@ -151,4 +158,4 @@ the structural fan-in (SFIN, number of users) and structural fan-out (SFOUT, num
 
 For object-oriented class-based systems you can use the coupling between object classes metric (CBO), the number of children metric (NOC) or the response for a class metric (RFC, number of external methods).
 
-<!-- PA Project Analyzer knows about VB metrics. Its Project Metrics feature calculates a large number of code metrics, including the ones mentioned in this article. -->
+[PA Project Analyzer](http://www.aivosto.com/project/vba.html) knows about VB metrics. Its Project Metrics feature calculates a large number of code metrics, including the ones mentioned in this article.
