@@ -25,7 +25,7 @@ Maintain an existing application. Before changing a program, you must understand
 
 Analyzing legacy code and documenting it as you go is good idea. Not only you learn what the code does, you will also help others learn it. Besides, you'll forget anyway. Without the docs, you'll have to analyze again next year.
 
-Determine reuse possibilities. See if the code can be turned to new uses by changing it. Find reusable components for other programs.
+Determine reuse possibilities. See if the code can be turned to new uses by changing it. **Find reusable components** for other programs.
 
 Determine locations for improvement. Any program is likely to contain bad code. Unless it's really hopeless, you can improve it with a stepwise approach.
 
@@ -66,9 +66,11 @@ PA Project Analyzer shows procedure calls and called-by information. Select a pr
 A flow chart visualizes the conditional branches, loops and jumps. You can draw flow charts manually (bad)
 or use [Visustin](http://www.aivosto.com/visustin/help/info.html) (good) for automated diagramming.
 
-Understand variables
+## Understand variables
 
-Certain global variables or arrays may be significant to the application. When analyzing legacy code, one of the tasks is to spot the key data structures and variables and determine how they are being used.
+Certain global variables or arrays may be significant to the application. 
+
+When analyzing legacy code, one of the tasks is to spot the key data structures and variables and determine how they are being used.
 
 Determine variable reads. Understand the locations where a variable's value is required.
 
