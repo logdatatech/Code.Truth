@@ -24,9 +24,10 @@ Markdown incorporates a handful of simple, fairly intuitive, and easy-to-use syn
 
 ## In Good Company who Else decided on MarkDown
 
-* [http://github.com](http://github.com) an enhanced version called GFM github flavoured markup
-* [https://docs.microsoft.com/](https://docs.microsoft.com/) Very high number of articles.
-* [https://blog.ghost.org/markdown/](https://blog.ghost.org/markdown/) Ghost Blogging Tool
+* [github.com](http://github.com) an enhanced version called GFM github flavoured markup
+* [docs.microsoft.com/](https://docs.microsoft.com/) Very high number of articles.
+* [disourse.org](https://www.discourse.org//) Modern Forum Tool
+* [blog.ghost.org/markdown/](https://blog.ghost.org/markdown/) Ghost Blogging Tool
 
 ---
 

@@ -3,22 +3,37 @@
 
 ## Layered Config Files
 
-### settings.json the Master
+Scope is ...
+
+### settings.json the Master global
+
+```json
+// Core Config the editor.*
+
+//
+```
 
 Path %...
 
-#### extension level
+#### extension level configurations global.
 
 A Best Practice for sanity is to Comment each block.
 
+```json
+//
 
-### Folder Level Workspace ... files
+//
+```
+
+### Folder Level Workspace .-vs-code-workspace files
 
 ?
 
 ### Workspace ... files
 
-... 
+...
+
+---
 
 ## Disable Completely Unused Extensions
 
@@ -27,13 +42,17 @@ A Best Practice for sanity is to Comment each block.
 - Go
 - Swift
 
+---
+
 ## Search Replace by Regex
 
 ### Multiple Tabs at End Of Line
 
 Find: [.*] RegEx Only Box Ticked.
+
 \t*\n
 Replace:
+
 \n
 
 ---

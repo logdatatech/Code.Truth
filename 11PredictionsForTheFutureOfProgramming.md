@@ -1,15 +1,18 @@
-[// LINK:https://www.infoworld.com/article/3154313/application-development/11-predictions-for-the-future-of-programming.html:] COMMENT 
+<!--LINK:https://www.infoworld.com/article/3154313/application-development/11-predictions-for-the-future-of-programming.html-->
 
 # 11 predictions for the future of programming
 
-Our coding crystal ball clues you into the twists and turns your programming career may take in the years ahead
-The only thing that flies faster than time is the progress of technology. Once after lunch, a chip-designing friend excused himself quickly with the deft explanation that Moore’s Law meant that he had to make his chip set 0.67 percent faster each week, even while on vacation. If he didn’t, the chips wouldn’t double in speed every two years.
+Our coding crystal ball clues you into the twists and turns your programming career may take in the years ahead The only thing that flies faster than time is the progress of technology.
 
-Now that 2017 is here, it’s time to take stock of the technological changes ahead, if only to help you know where to place your bets in building programming skills for the future.
+Once after lunch, a chip-designing friend excused himself quickly with the deft explanation that Moore’s Law meant that he had to make his chip set 0.67 percent faster each week, even while on vacation. If he didn’t, the chips wouldn’t double in speed every two years.
+
+It’s time to take stock of the technological changes ahead, if only to help you know where to place your bets in building programming skills for the future.
 
 ## The cloud will defeat Moore’s Law
 
-There are naysayers who claim the chip companies have hit a wall. They’re no longer doubling chip speed every two years as they did during the halcyon years of the ’80s and ’90s. Perhaps -- but it doesn’t matter anymore because the boundaries between chips are less defined than ever.
+There are naysayers who claim the chip companies have hit a wall.
+
+They’re no longer doubling chip speed every two years as they did during the halcyon years of the ’80s and ’90s. Perhaps -- but it doesn’t matter anymore because the boundaries between chips are less defined than ever.
 
 In the past, the speed of the CPU in the box on your desk mattered because, well, you could only go as fast as the silicon hamster inside could spin its wheel. Buying a bigger, faster hamster every few years doubled your productivity, too.
 
@@ -28,10 +31,6 @@ The challenge is keeping track of it all. It’s hard enough to update the batte
 Giving these devices the chance to run arbitrary code is a blessing and a curse. If programmers want to perform clever tasks and let users have maximum flexibility, the platforms should be open. That’s how the maker revolution and open source creativity flourishes. But this also gives virus writers more opportunity than ever before. All they need to do is find one brand of widget that hasn’t updated a particular driver -- voilà, they’ve found millions of widgets primed to host bots.
 
 ## Video will dominate the web in new ways
-
-When the HTML standards committee started embedding video tags into HTML itself, they probably didn’t have grand plans of remaking entertainment. They probably only wanted to solve the glitches from plugins. But the basic video tags respond to JavaScript commands, and that makes them essentially programmable.
-
-That is a big change. In the past, most videos have been consumed very passively. You sit down at the couch, push the play button, and see what the video’s editor decided you should see. Everyone watching that cat video sees the cats in the same sequence decided by the cat video’s creator. Sure, a few fast-forward but videos head to their conclusion with as much regularity as Swiss trains.
 
 JavaScript’s control of video is limited, but the slickest web designers are figuring clever ways to integrate video with the rest of the web page in a seamless canvas. This opens up the possibility for the user to control how the narrative unfolds and interact with the video. No one can be sure what the writers, artists, and editors will imagine but they’ll require programming talent to make it happen.
 
@@ -59,7 +58,13 @@ Data gathering, collating, curating, and parsing will continue to be one of the 
 
 When kids in college take a course called “Data Structures,” they get to learn what life was like when their grandparents wrote code and couldn’t depend on the existence of a layer called “the database.” Real programmers had to store, sort, and join tables full of data, without the help of Oracle, MySQL, or MongoDB.
 
-Machine learning algorithms are a few short years away from making that jump. Right now programmers and data scientists need to write much of their own code to perform complex analysis. Soon, languages like R and some of the cleverest business intelligence tools will stop being special and start being a regular feature in most software stacks. They’ll go from being four or five special slides in the PowerPoint sales deck to a little rectangle in the architecture drawing that’s taken for granted.
+Machine learning algorithms are a few short years away from making that jump.
+
+Right now programmers and data scientists need to write much of their own code to perform complex analysis.
+
+Soon, languages like R and some of the cleverest business intelligence tools will stop being special and start being a regular feature in most software stacks.
+
+> They’ll go from being four or five special slides in the PowerPoint sales deck to a little rectangle in the architecture drawing that’s taken for granted.
 
 It won’t happen overnight, and it’s not clear exactly what shape it will be, but it’s clear that more and more business plans depend on machine learning algorithms finding the best solutions.
 
@@ -76,9 +81,15 @@ easy to keep it all straight, and it’s only going to get worse in the years ah
 
 The passing of the PC isn’t only the slow death of a particular form factor. It’s the dying of a particularly open and welcoming marketplace. The death of the PC will be a closing of possibilities.
 
-When the PCs first shipped, a programmer could compile code, copy it onto disks, pop those disks into ziplock bags, and the world could buy it. There was no middle man, no gatekeeper, no stern central force asking us to say, “Mother, may I?”
+When the PCs first shipped, a programmer could compile code, copy it onto disks, pop those disks into ziplock bags, and the world could buy it.
 
-Consoles are tightly locked down. No one gets into that marketplace without an investment of capital. The app stores are a bit more open, but they’re still walled gardens that limit what we can do. Sure, they are still open to programmers who jump through the right hoops but anyone who makes a false move can be tossed. (Somehow they’re always delaying our apps while the malware slips through. Go figure.)
+There was **no middle man**, no gatekeeper, no stern central force asking us to say, “Mother, may I?”
+
+Consoles are tightly locked down. No one gets into that marketplace without an investment of capital.
+
+The app stores are a bit more open, but they’re still walled gardens that limit what we can do.
+
+Sure, they are still open to programmers who jump through the right hoops but anyone who makes a false move can be tossed. (Somehow they’re always delaying our apps while the malware slips through. Go figure.)
 
 This distinction is important for open source. It’s not solely about selling floppy disks in baggies. We’re losing the ability to share code because we’re losing the ability to compile and run code. The end of the PC is a big part of the end of openness. For now, most of the people reading this probably have a decent desktop that can compile and run code, but that’s slowly changing.
 
@@ -108,6 +119,6 @@ Moreover, code itself is a version of law. Programmers define what software can 
 
 ## Containers will rule
 
-In theory, we shouldn’t need containers. Your executable should simply run, and the operating system should manage permissions and scheduling so that all the executables get along. Alas, that dream is receding faster than ever. Fewer and fewer excusable live alone. Many need differing versions of various libraries or other special accommodations. Even “run anywhere” technologies like Java get into trouble because there are so many different versions of the virtual machine.
+In theory, we shouldn’t need containers. Your executable should simply run, and the operating system should manage permissions and scheduling so that all the executables get along. Alas, that dream is receding faster than ever. Fewer and fewer executable live alone. Many need differing versions of various libraries or other special accommodations. Even “run anywhere” technologies like Java get into trouble because there are so many different versions of the virtual machine.
 
 Good VMs can fix this, but they’re fat. Containers are skinny and lightweight. They’re easy to use and thus impossible not to love. We will see more and more containers at all levels of the enterprise, and it’s hard to resist their charms.
