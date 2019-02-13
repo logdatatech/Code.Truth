@@ -45,14 +45,10 @@ If you’re performing a code audit, we recommend breaking down the process into
 
 ## 5 Quick Tips for an Effective Code Audit
 
-#1 Define the scope and create a code review checklist to ensure consistency across all team members and guarantee key issues are addressed and solved.
+1. Define the scope and create a code review checklist to ensure consistency across all team members and guarantee key issues are addressed and solved.
+2. Make sure you utilize both automated and manual code review to enable the most effective code analysis.
+3. Avoid playing the “blame game” with developers every time you find a mistake. Instead, build a strong and positive security culture and use this opportunity for your team to grow and learn.
+4. Consider bringing a third-party code auditor, a new set of eyes will always reveal more things which are often considered common knowledge “no-issues” by your current development team.
+5. Perform regular code audits to save time. Leaving it to the last minute means that the app will be reviewed all at once, thus taking more time and delaying all the deployment process, plus potentially revealing a large number of logical issues and security vulnerabilities.
 
-#2 Make sure you utilize both automated and manual code review to enable the most effective code analysis.
-
-#3 Avoid playing the “blame game” with developers every time you find a mistake. Instead, build a strong and positive security culture and use this opportunity for your team to grow and learn.
-
-#4 Consider bringing a third-party code auditor, a new set of eyes will always reveal more things which are often considered common knowledge “no-issues” by your current development team.
-
-#5 Perform regular code audits to save time. Leaving it to the last minute means that the app will be reviewed all at once, thus taking more time and delaying all the deployment process, plus potentially revealing a large number of logical issues and security vulnerabilities.
-
-Overall, regular code audit should make part of any mature software development process, whether it’s Agile or Waterfall-based one. Performing it regularly allows you to control the product quality, maintainability and security. And on top of that, to enjoy a possibility of easy project handover, in case the need arises.
+Overall, **regular code audits** must be a part of any mature software development process, whether it’s Agile or Waterfall-based one. Performing it regularly allows you to control the product quality, maintainability and security. And on top of that, to enjoy a possibility of easy project handover, in case the need arises.
