@@ -4,7 +4,9 @@
 
 ## 1. Bugs come from lazy programmers
 
-“If we hire testers”, this fantasy goes, “the programmers will get sloppy and write buggy code. By avoiding testers, we can force the programmers to write correct code in the first place.”
+> “If we hire testers”, this fantasy goes, “the programmers will get sloppy and write buggy code.
+
+By avoiding testers, we can force the programmers to write correct code in the first place.”
 
 Sheesh. If you think that, you either have never written code, or you are remarkably dishonest about what writing code is like. Bugs, by definition, leak out because programmers did not see the bug in their own code. A lot of times it just takes a second set of eyes to see a bug.
 
