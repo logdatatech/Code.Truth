@@ -1,9 +1,9 @@
 
 # BookShelf Porn For Programmers
 
-## Some very worthwhile books - in no particular order
+> Some very worthwhile books - in no particular order
 
-[Code Complete 2 – Steve McConnell](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/)
+## [Code Complete 2 – Steve McConnell](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/)
 
 The bible of high quality software development. If you read nothing else read this book. All sections are clearly described with plentiful references to further works that are well worth following up. I use this as my directory for what to read next.
 
@@ -13,7 +13,7 @@ The most important advice in my view is to write software for people first and c
 
 ---
 
-The Pragmatic Programmer – Andrew Hunt and David Thomas
+## The Pragmatic Programmer – Andrew Hunt and David Thomas
 
 Superb book written with the simple goal of helping people write better software, and it works!
 Discusses how to set up a professional software development environment, offers some great suggestions for the design phase, including design by contract, what to prototype, when, what and how to refactor, testing effectively, as well as details of tools that can help at all stages of a project.
@@ -45,7 +45,7 @@ It contains an interesting discussion of the value of a good developer – proba
 
 ---
 
-Facts and Fallacies of Software Engineering – Robert L Glass
+## Facts and Fallacies of Software Engineering – Robert L Glass
 
 A very readable book, discusses 55 facts about software – such as – ‘Error removal is the most time consuming phase of the life cycle’.
 
@@ -61,7 +61,7 @@ This is actually a very concise book that covers an incredible amount of ground 
 
 ---
 
-In Search of Stupidity – Merrill R Chapman
+## In Search of Stupidity – Merrill R Chapman
 
 This is more of a business book than a development book, it looks at some of the marketing disasters in the tech industry over the last 20 years.
 
@@ -79,7 +79,7 @@ Interestingly a common mistake seems to be re-writing products from scratch in s
 
 ---
 
-Visual C++ for Visual Basic Developers – Bill Locke.
+## Visual C++ for Visual Basic Developers – Bill Locke.
 
 There are many reasons VB developers may desire a better understanding of C/C++. When you start bumping on the ceiling of native VB and need to work with various API’s a solid understanding of at least the different data types is useful.
 
@@ -100,7 +100,7 @@ The book finishes with a section on C# and .net which useful for context setting
 
 ---
 
-Spreadsheet Check and Control - Patrick O'Beirne
+## Spreadsheet Check and Control - Patrick O'Beirne
 
 Probably one of the most important spreadsheet books ever written.
 
@@ -114,7 +114,7 @@ Be aware that the pages are packed with useful and usable advice, so the 200 pag
 
 ---
 
-Excel Add-in Development in C/C++ - Steve Dalton
+## Excel Add-in Development in C/C++ - Steve Dalton
 
 Finally here is a book with excellent coverage of the black art of xll development. It is mainly focused on worksheet functions, but it does provide good coverage of the (limited) user interface aspects of xlls too.
 Anyone who has written worksheet functions in VBA (or VB6 or .net) will know about poor performance. It is generally accepted that there is only one way to get good performance – and that is through the C API that Excel exposes. Unfortunately this is only accessible to native win 32 code that languages such as C/C++ and Delphi produce.
@@ -127,7 +127,7 @@ The book also comes with the authors C++ class structure source code to neatly w
 
 ---
 
-Professional Excel Development – Stephen Bullen, Rob Bovey, John Green.
+## Professional Excel Development – Stephen Bullen, Rob Bovey, John Green.
 
 At least one of these authors has been involved in pretty much every serious Excel development book ever written, so the pedigree is impeccable. This is THE current Excel developers textbook.
 
@@ -139,7 +139,7 @@ The book follows the development of a specific project, updating and upgrading t
 
 ---
 
-Pivot Table Data Crunching - Bill Jelen, Mike Alexander
+## Pivot Table Data Crunching - Bill Jelen, Mike Alexander
 
 Pivot tables are probably the most important feature in Excel. Unfortunately they are also the most underused which represents a phenomenal waste of time and effort.
 
@@ -153,7 +153,7 @@ The book also clearly and concisely identifies which type of pivot tables suppor
 
 ---
 
-Excel Advanced report Development – Timothy Zapawa
+## Excel Advanced report Development – Timothy Zapawa
 
 This book is based on a pretty simple premise – Excel is your window to the world of corporate data. It’s a practical handbooks with full ‘select this..’ ‘click that..’ instructions to unleash the full power of Excels very under-utilised data access technologies.
 
@@ -169,7 +169,7 @@ Overall the book enables and encourages a great way to work with Excel, using it
 
 ---
 
-This Isn't Excel, its Magic - Bob Umlas
+## This Isn't Excel, its Magic - Bob Umlas
 
 Great set of tips and tricks for working with Excel. Everybody who works with Excel will find something that will save them time or pain or both in this book. Covers features, formulas, keyboard shortcuts, printing, VBA and Misc sections.
 
@@ -179,7 +179,7 @@ Contains 85 assorted tips, anyone who knows Bob knows that means he has plenty l
 
 ---
 
-About Face 2.0 – Alan Cooper, Robert Reimann
+## About Face 2.0 – Alan Cooper, Robert Reimann
 
 If your software is going to interact with human users you need to read this book. If you ever wondered why some dialog boxes seem easier to use than others, the explanation is in this book.
 The authors go into the finest detail to explain what works, and for who and what does not work and why. Not only that, but they give the reader the knowledge to design their own software to play nicer with the human users.
@@ -190,7 +190,7 @@ I especially agree with the section about unnecessary confirmation dialog boxes 
 
 ---
 
-Microsoft .Net Development for Microsoft Office – Andrew Whitechapel.
+## Microsoft .Net Development for Microsoft Office – Andrew Whitechapel.
 
 The inside line from Microsoft about how to combine their latest developer tools with MS Office to create powerful business solutions.
 
@@ -203,7 +203,7 @@ The book is good and if you are determined to use .net with Office you definitel
 
 ---
 
-Visual Studio Tools for Office – Eric Carter, Eric Lippert.
+## Visual Studio Tools for Office – Eric Carter, Eric Lippert.
 
 The authors are senior developers on the VSTO team, and clearly know their technology inside out. The book provides in depth coverage of using Visual Studio 2005 and VSTO 2005 (now 2 separate products) with each of the main Office products.
 
@@ -217,7 +217,7 @@ The book is based on VSTO 2.0 (from the 2005 releases) this product is a signifi
 
 ---
 
-Writing Solid Code – Steve Maguire
+## Writing Solid Code – Steve Maguire
 
 Probably getting on a bit now this book – it was published in 1993 (maybe there is a later edition?). It mainly addresses C and some of the advice is only really useful for C programmers. However there are plenty of excellent tips for developers working in any language. The author worked on MS Word and Excel and has some interesting insights to developments at Microsoft. Knowing the products really brings the advice home.
 
@@ -226,7 +226,7 @@ A very easy read, in an informal style with plenty of real world examples.
 
 ---
 
-Microsoft Excel 97 Developer’s Kit – Baarns Consulting Group
+## Microsoft Excel 97 Developer’s Kit – Baarns Consulting Group
 
 This is the classic in developing for the Excel C API and working with the biff .xls file format. Probably out of print now and desperately in need of updating (Steve Daltons book does that and more for the C API side of things).
 
@@ -235,3 +235,5 @@ Good general discussion of add-in design, a bit of a retro section (now) on movi
 The main chunk of the book is given over to documenting the underlying file format used in .xls files. This is pretty thorough, but of course misses any of the new features added in 2000, 2002, and 2003. As it turns out that isn’t that many features, more up to date information is available from some of the open source projects that provide binary compatibility with the Excel file format.
 
 There is no indication from Microsoft whether they will update this book to cover any new additions, although it looks unlikely as Excel 2007 will natively use XML, which is self describing.
+
+---
