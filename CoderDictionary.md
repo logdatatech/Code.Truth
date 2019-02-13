@@ -27,7 +27,7 @@ The context (characterized by various factors such as the problem at hand, desig
 
 ---
 
-[wikipedia.org/wiki/Anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern){:target="_blank"}
+[wikipedia.org/wiki/Anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern{:target="_blank"})
 
 <!-- Markdown 2.5.2+ Supports the {} extras for links opening in new window etc ... -->
 
