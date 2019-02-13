@@ -4,11 +4,10 @@
 
 > Do you have code ?
 
-- Compiled ?
-- Frameworks (Ruby on Rails etc)
+- Compiled or Frameworks (Ruby on Rails etc)
 - Serious Excel Fu (Formula Superstars)
 - Serious SQL
-- Scripts
+- Scripts {VB,PowerShell,Bash,Python,R and many more}
 
 ## VBA is a Special Case
 
