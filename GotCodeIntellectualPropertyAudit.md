@@ -57,8 +57,5 @@ There could be as few as 50 lines or code or as many as 50,000+ in a VBA Project
 
 - Re-used
 - Extended
-- Recycled
 - Consumed with API's
-- Bridges
-
----
+- Linked to Other Applications
