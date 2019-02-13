@@ -1,6 +1,7 @@
-LINK:http://www.infoworld.com/article/3184495/application-development/9-lies-programmers-tell-themselves.html
 
-# 9 lies programmers tell themselves
+<!--LINK:http://www.infoworld.com/article/3184495/application-development/9-lies-programmers-tell-themselves.html-->
+
+# Nine Lies Programmers Tell Themselves
 
 ## Confidence in our power over machines also makes us guilty of hoping to bend reality to our code
 
@@ -15,7 +16,7 @@ My favorite may be the list of falsehoods about phone numbers. If you think that
 
 Here are a number of false beliefs that we programmers often pretend are quite true.
 
-## 1. - Questions have one answer
+## 1. Questions have one answer
 
 The database table is filled with columns, and each column has an entry or it doesn’t. It’s either full or null. What’s so hard about matching up an answer for every question?
 
@@ -26,13 +27,13 @@ If you think it’s enough to add one slot to the table to handle a window for e
 
 Those are times only. The list of potential exceptions goes on and on making it impossible to imagine that a database will ever model reality by storing the absolute and final answer for any question no matter how simple.
 
-## 2. - Null is acceptable
+## 2. Null is acceptable
 
 Sometimes I think that half of the Java code I write is checking to see whether a pointer is null. When I’m feeling aggressive, I try to draw a perimeter around my library and test for null only at the entry methods, those locations where the API is open to the rest of the code. That simplifies things for a bit, but eventually I want to reach into the library and use a small method that’s sitting there. Oops. Now it needs to test for nullity and the perimeter has been breached. So much for building a wall.
 
 Figuring out how to handle this issue is a big problem for modern language design. The clever way some languages use a question mark to check for nullity helps, but it doesn’t get rid of the issue. Null simply makes object-oriented programming much more confusing and prolix.
 
-## 3. - Human relationships can be codified
+## 3. Human relationships can be codified
 
 When gay marriage was legalized, one smart database administrator recognized that this was much bigger than the Y2K problem, which had almost paralyzed the country by asking the programmers to go back and add two new digits to the year. To solve this, the DBA considered how to handle the challenge with 14 progressively more accommodating database schema, each more elaborate than the last. In the end, he concluded, “Perhaps the simplest solution would be to ban marriage outright.”
 
