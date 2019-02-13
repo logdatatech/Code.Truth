@@ -18,9 +18,7 @@ Code hides in a few places and there are a Myriad of Files to investigate.
 - Word VBA
 - Access VBA
 - Visio Professional VBA
-- PowerPoint VBA
-- Project VBA
-- Outlook VBA
+- Project,PowerPoint,Outlook {Rarer but Possible}
 <!--- ArcGIS VBA
 - AutoCAD VBA
 - Enterprise Architect
