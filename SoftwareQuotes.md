@@ -1,6 +1,10 @@
 
 # Software Quotes
 
+## On Coding
+
+> The Programmers Credo: We do these things not because they are easy but because we though they were going to be easy.
+
 ## Specifically about Software
 
 > Any fool can write code that a computer can understand. Good programmers write code that humans can understand. — Martin Fowler
