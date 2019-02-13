@@ -1,6 +1,6 @@
 # 12 Steps to Better Code
 
-ORIGIN:https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/
+<!--ORIGIN:https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/-->
 
 The Joel Test (abridged/edited slightly by Nathan K.)
 
@@ -96,17 +96,17 @@ The other crucial thing about having a schedule is that it forces you to decide 
 
 Keeping schedules does not have to be hard. Read my article Painless Software Schedules, which describes a simple way to make great schedules.
 
-## 7. Do you have a spec?
+## 7. Do you have a specification ?
 
-Writing specs is like flossing: everybody agrees that it’s a good thing, but nobody does it.
+Writing specifications is like flossing: everybody agrees that it’s a good thing, but nobody does it.
 
 I’m not sure why this is, but it’s probably because most programmers hate writing documents. As a result, when teams consisting solely of programmers attack a problem, they prefer to express their solution in code, rather than in documents. They would much rather dive in and write code than produce a spec first.
 
 At the design stage, when you discover problems, you can fix them easily by editing a few lines of text. Once the code is written, the cost of fixing problems is dramatically higher, both emotionally (people hate to throw away code) and in terms of time, so there’s resistance to actually fixing the problems. Software that wasn’t built from a spec usually winds up badly designed and the schedule gets out of control. This seems to have been the problem at Netscape, where the first four versions grew into such a mess that management stupidly decided to throw out the code and start over. And then they made this mistake all over again with Mozilla, creating a monster that spun out of control and took several years to get to alpha stage.
 
-My pet theory is that this problem can be fixed by teaching programmers to be less reluctant writers by sending them off to take an intensive course in writing. Another solution is to hire smart program managers who produce the written spec. In either case, you should enforce the simple rule “no code without spec”.
+My pet theory is that this problem can be fixed by teaching programmers to be less reluctant writers by sending them off to take an intensive course in writing. Another solution is to hire smart program managers who produce the written spec. In either case, you should enforce the simple rule:
 
-Learn all about writing specs by reading my 4-part series.
+> no code without spec
 
 ## 8. Do programmers have quiet working conditions?
 
