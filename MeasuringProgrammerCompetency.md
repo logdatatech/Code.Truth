@@ -1,6 +1,6 @@
 # Measuring programmer competency
 
-One way is to ask them which books they have read to improve their craft. [BookShelf Porn For Programmers](./BookShelfPornForProgrammers.md) if they haven't read more than three of these books it's a **red flag**.
+One way is to ask them which books they have read to improve their craft. [BookShelf Porn For Programmers](./BookShelfPornForProgrammers.md) if they haven't read more than three of these books it's a :triangular_flag_on_post:	**red flag**.
 
 <!-- https://softwareefficiency.wordpress.com/2015/09/20/measuring-programmer-competency/ -->
 
@@ -10,19 +10,20 @@ In my search to some way of measuring how good a programmer I am, I found this e
 
 Let’s evaluate if this is a sufficient measure.
 
-> DATA STRUCTURES  
+## DATA STRUCTURES  
 
 Medium: Able to explain and use Arrays, LinkedLists, Dictionaries etc in practical programming tasks
 
-High: Knows space and time tradeoffs of the basic data structures, Arrays vs LinkedLists, ( array list vs linked list explained here)
-
-Able to explain how hashtables can be implemented and can handle collisions, priority queues and ways to implement them etc.
+High: Knows space and time tradeoffs of the basic data structures, Arrays vs LinkedLists Able to explain how hashtables can be implemented and can handle collisions, priority queues and ways to implement them etc.
 
 Pro: Knowledge of advanced data structures like B-trees, binomial and fibonacci heaps, AVL/Red Black trees, Splay Trees, Skip Lists, tries etc.
 
-While I’ve studied these data structures 10 years ago at university which would make me a pro according this measure I’ve never had to choose, use (by choice) or explicitly implement these datastructures. It would have looked great on my résumé but sadly that day is yet to come. 
+While I’ve studied these data structures 10 years ago at university which would make me a pro according this measure I’ve never had to choose, use (by choice) or explicitly implement these datastructures. It would have looked great on my résumé but sadly that day is yet 
+to come.
 
-> ALGORITHMS
+---
+
+## ALGORITHMS
 
 Medium: Basic sorting, searching and data structure traversal and retrieval algorithms
 
@@ -32,7 +33,9 @@ Pro: Able to recognize and code dynamic programming solutions, good knowledge of
 
 If you’d like to train your mastery of algorithms, I’d like to reference project euler. This is an exquisite exercise of your knowledge of algorithms and math. Sadly in a professional environment I seldom see problems that need this kind of expertise. 
 
-> SYSTEMS PROGRAMMING
+---
+
+## SYSTEMS PROGRAMMING
 
 Medium: Basic understanding of compilers, linker and interpreters. Understands what assembly code is and how things work at the hardware level. Some knowledge of virtual memory and paging.
 
@@ -42,17 +45,17 @@ Pro: Understands the entire programming stack, hardware (CPU + Memory + Cache + 
 
 I have to confess, I love system programming details and I love knowing the details. This comes in really useful when debugging a hard to find problem. As development is migrating away from the machine the amount of programmers that know how the hardware works diminishes. 
 
-> SOURCE CODE VERSION CONTROL
+---
 
-Medium: VSS and beginning SVN user
+## SOURCE CODE VERSION CONTROL
 
-High: Proficient in using SVN features. Knows how to branch and merge,use patches setup repository properties etc.
-
-Pro: Knowledge of distributed VCS systems. Has tried out Bzr/Mercurial/Darcs/Git
+In 2019 and Beyond it is all about a Mastery of Git based workflows. Experience with older or proprietary tools will translate well.
 
 This really isn’t something the developer has a lot of options in. Either their employer uses proper version control or they don’t.
 
-> BUILD AUTOMATION
+---
+
+## BUILD AUTOMATION
 
 Medium: Knows how to build the system from the command line
 
@@ -62,7 +65,9 @@ Pro: Can setup a script to build the system and also documentation, installers, 
 
 I used to be the release manager. I had to do all of these tasks. I must say knowing how to do this doesn’t really add to programming expertise.
 
-> AUTOMATED TESTING
+---
+
+## AUTOMATED TESTING
 
 Medium: Has written automated unit tests and comes up with good unit test cases for the code that is being written
 
@@ -82,7 +87,9 @@ Pro: Use of appropriate data structures and algorithms and comes up with generic
 
 It should also be mentioned that only abstractions are made where they are needed. A lot of time has been wasted on abstract clutter that nobody understands. 
 
-> SYSTEMS DECOMPOSITION
+---
+
+## SYSTEMS DECOMPOSITION
 
 Medium:Able to break up problem space and design solution as long as it is within the same platform/technology
 
@@ -92,7 +99,9 @@ Pro: Able to visualize and design complex systems with multiple product lines an
 
 This seems to be pushing the boundaries of what a software analyst should do. Mostly monitoring, reporting and fail over is merely choosing for the right product, so to me it isn’t sure that this is a skill. 
 
-> COMMUNICATION
+---
+
+## COMMUNICATION
 
 Medium: Peers can understand what is being said. Good spelling and grammar.
 
@@ -102,7 +111,9 @@ Pro: Able to understand and communicate thoughts/design/ideas/specs in a unambig
 
 I know very few programmers that would succeed in this part. The only question is how do you train/verify this? This seems to be more of a job for an analyst. 
 
-> CODE ORGANIZATION WITHIN A FILE
+---
+
+## CODE ORGANIZATION WITHIN A FILE
 
 Medium: Methods are grouped logically or by accessibility
 
@@ -114,7 +125,9 @@ I barely see programmers that have time to add license headers and a summary to 
 
 With the IDEs these days files can be formatted automatically. So extra credit for people who know the format button. Code grouping is also fairly hard. You can group functions according to different aspects. That’s why good IDEs have proper navigation tools for that.
 
-> CODE ORGANIZATION ACROSS FILES
+---
+
+## CODE ORGANIZATION ACROSS FILES
 
 Medium: Related files are grouped into a folder
 
@@ -124,7 +137,9 @@ Pro: Code organization at a physical level closely matches design and looking at
 
 As for one class definition in one file, this is required in some languages like java. Most of this depends on what is imposed from higher end. Programmers tend to keep these habits.
 
-> SOURCE TREE ORGANIZATION
+---
+
+## SOURCE TREE ORGANIZATION
 
 Medium: Basic separation of code into logical folders.
 
@@ -133,8 +148,9 @@ High: No circular dependencies, binaries, libs, docs, builds, third-party code a
 Pro: Physical layout of source tree matches logical hierarchy and organization. The directory names and organization provide insights into the design of the system.
 
 Programmers don’t get a lot of practice here. They are to adopt the company standard.
+---
 
-> CODE READABILITY
+## CODE READABILITY (Very Important for Projects with Long Lives)
 
 Medium: Good names for files, variables classes, methods etc.
 
@@ -144,7 +160,9 @@ Pro: Code assumptions are verified using asserts, code flows naturally – no de
 
 To me this is spot-on. In my humble opinion **this is the most important aspect**.
 
-> DEFENSIVE CODING
+---
+
+## DEFENSIVE CODING
 
 Medium: Checks all arguments and asserts critical assumptions in code
 
@@ -154,7 +172,9 @@ Pro: Has his own library to help with defensive coding, writes unit tests that s
 
 Defensive coding is not taught by most programming courses and your skill may depend on the type of programmers you encounter in your career. Defensive programming is more than checking arguments, it also means designing classes so it makes incorrect use hard. 
 
-> ERROR HANDLING
+---
+
+## ERROR HANDLING
 
 Medium: Basic error handling around code that can throw exceptions/generate errors.
 
@@ -162,7 +182,9 @@ High: Ensures that error/exceptions leave program in good state, resources, conn
 
 Pro: Codes to detect possible exception before, maintain consistent exception handling strategy in all layers of code, come up with guidelines on exception handling for entire system.
 
-> IDE
+---
+
+## IDE
 
 Medium: Knows their way around the interface, able to effectively use the IDE using menus.
 
@@ -172,7 +194,9 @@ Pro: Has written custom macros
 
 What is also a plus is knowing all the features of your IDE. With the modern IDEs this may not be as obvious as it may seem.
 
-> API
+---
+
+## API
 
 Medium: Has the most frequently used APIs in memory
 
@@ -182,7 +206,9 @@ Pro: Has written libraries that sit on top of the API to simplify frequently use
 
 Knowing API details by heart has been obsoleted by auto-completion.(unless of course you haven’t discovered auto-completion yet)
 
-> REQUIREMENTS
+---
+
+## REQUIREMENTS
 
 Medium: Come up with questions regarding missed cases in the specification
 
@@ -192,7 +218,9 @@ Pro: Able to suggest better alternatives and flows to given requirements based o
 
 This is a nice job description of an analyst. Should every developer have analyst skills?
 
-> SCRIPTING
+---
+
+## SCRIPTING
 
 Medium: Batch files/shell scripts
 
@@ -202,7 +230,9 @@ Pro: Has written and published reusable code
 
 All programmers should be able to script, but the language doesn’t matter. Most scripting languages can be learnt in no time.
 
-> DATABASE
+---
+
+## DATABASE
 
 Medium: Knows basic database concepts, normalization, ACID, transactions and can write simple selects
 
@@ -210,7 +240,9 @@ High: Able to design good and normalized database schemas keeping in mind the qu
 
 Pro: Can do basic database administration, performance optimization, index optimization, write advanced select queries, able to replace cursor usage with relational sql, understands how data is stored internally, understands how indexes are stored internally, understands how databases can be mirrored, replicated etc. Understands how the two phase commit works.
 
-> LANGUAGES WITH PROFESSIONAL EXPERIENCE
+---
+
+## LANGUAGES WITH PROFESSIONAL EXPERIENCE
 
 Medium: Imperative, Object-Oriented and declarative (SQL), added bonus if they understand static vs dynamic typing, weak vs strong typing and static inferred types
 
@@ -220,7 +252,9 @@ Pro: Concurrent (Erlang, Oz) and Logic (Prolog)
 
 How often does a professional environment need someone that is proficient in prolog or any other functional language? I’ve not encountered it yet.
 
-> PLATFORMS WITH PROFESSIONAL EXPERIENCE
+---
+
+## PLATFORMS WITH PROFESSIONAL EXPERIENCE
 
 Medium: 2-3
 
@@ -230,12 +264,15 @@ Pro: 6+
 
 Does having more than 2 years of experience really add much? I doubt it.
 
-> YEARS OF PROFESSIONAL EXPERIENCE
+### YEARS OF PROFESSIONAL EXPERIENCE
+
 Medium, High, Pro: 2-5,6-9,10+
 
 Experience on itself doesn’t say much. I’ve met very good juniors and very mediocre seniors. Programmers that stick with the same job for 10+ years rarely have a wide area of knowledge.  
 
-> KNOWLEDGE OF UPCOMING TECHNOLOGIES
+---
+
+## KNOWLEDGE OF UPCOMING TECHNOLOGIES
 
 Medium: Has heard of upcoming technologies in the field
 
