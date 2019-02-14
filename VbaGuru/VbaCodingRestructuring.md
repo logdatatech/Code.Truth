@@ -29,14 +29,6 @@ Spaghetti may be delicious, but not when you find it in your code. It's often ne
 
 ## [Add modularity](#howto-add-modularity)
 
-## [Go object-oriented](#howto-Go-object-oriented)
-
-## [Encapsulate data access](#howto-Encapsulate-data-access)
-
-## [Limit visibility by scoping](#howto-limit-visibility-by-scoping)
-
----
-
 ### HOWTO Add Modularity
 
 Think of a module as a group of related procedures. What you'd want to do is to find groups of procedures that belong together, and put them all to a single module.
@@ -54,6 +46,10 @@ There's no single solution to the module division problem. It's more like a trad
 #### Suggested Module Naming Schemes
 
 - mod%TheRest%
+
+---
+
+## [Go object-oriented](#howto-Go-object-oriented)
 
 ### HOWTO Go object-oriented
 
@@ -97,6 +93,10 @@ Set obj = New Class
 
 You may find out that it did not make sense to go object-oriented. If this happens, just revert back to your original module. You did take a backup copy, didn't you?
 
+---
+
+## [Encapsulate data access](#howto-Encapsulate-data-access)
+
 ### HOWTO Encapsulate data access
 
 Classes shouldn't usually allow variable read/write from outside of the class. Instead, you should provide accessor properties that will set and get the variable values.
@@ -131,6 +131,10 @@ Public Property Let Age(ByVal newAge As Integer)
     End If
 End Property
 ```
+
+---
+
+## [Limit visibility by scoping](#howto-limit-visibility-by-scoping)
 
 ### HOWTO Limit visibility by scoping
 
