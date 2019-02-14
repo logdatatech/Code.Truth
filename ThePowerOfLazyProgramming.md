@@ -79,7 +79,7 @@ The key is to understand the code and architecture well enough to know when to a
 
 While it is a well-known fact that writing is hard work and writers are never appreciated enough for their ability, programmers write out of laziness. They create documentation about the code so that others won’t bother them. They don’t want to field questions from the great sea of fools, so they write up good man pages explaining what the switches do. Sure, it takes a bit more work to write clearly and crisply, but it more than makes up for it in the long run when people leave you alone.
 
-# 10 Sparse comments
+## 10 Sparse comments
 
 Of course, when it comes to commenting, often less is more. Yes, you’re supposed to mix in a few words from your favorite human language to make it easier to understand the computer language. In fact, contracts often include requirements that withhold payment if there are no comments.
 
