@@ -31,25 +31,31 @@ for business purposes, becomes a tangled mess
 of bolt-on code and superfluous frameworks, and
 the only way forward is to bring in an experienced
 crew and hope for the best.
+
 “There could be many culprits in a scenario
-like this,” says Sweeton, of Stout Systems. “A
-common one is some fundamental
+like this,” says Sweeton, of Stout Systems. 
+
+“A common one is some fundamental
 flaw at the architectural
 level, so the framework
 of the house doesn’t support
 what you’re trying to build.
+
 That can be too little
 framework or too much
 framework -- too much
 is actually more common
 than you’d think.”
+
 If you’re lucky and the bones
 are good, you may not have to tear down the
 whole endeavor and start anew.
-“This is where the buzzword refactoring
+
+“This is where the buzzword **refactoring**
 comes into play,” Sweeton says, adding that the
 first step in refactoring code is to return to its
 requirements.
+
 “I would understand the requirements, then
 review the code to see if it’s meeting those
 requirements -- and unstated ones like quality
@@ -57,6 +63,7 @@ and maintainability,” Sweeton says. “If there
 are architectural problems, then sort out what
 it really should be and figure out the way to get
 the right architecture in place.”
+
 This doesn’t always mean rip and replace.
 As with a house, when you run across problems
 with code, there are ways to improve the overall
@@ -65,16 +72,20 @@ owners’ mistakes. Make incremental fixes
 and every time the code needs work, add an
 enhancement -- right the wrongs, Sweeton says.
 And refactor, refactor, refactor.
+
 If it’s a project that’s only used internally
 instead of a consumer product, you have a
 better chance of sticking with it rather than
 scrapping it.
+
 “But if it’s being used by millions of people,”
 Verizon’s Estrada says, “then little changes can
 make a big difference in terms of cost. If it’s
 really creating a bad user experience or costing a
 lot of money, then there’s probably a better way.
 It’s time to start over.”
+
+---
 
 ## The accidental duplex
 
@@ -90,6 +101,7 @@ everyone in the building.
 By the time the project gets
 handed off to engineering the
 big picture is lost.
+
 “This is a common
 problem,” Estrada says. “What
 ends up happening is that you
@@ -98,10 +110,12 @@ everyone, then nobody knows
 what you’re trying to accomplish or what should
 be done first. Of course it cascades into more
 problems and more problems.”
+
 In other instances, executives and project
 managers can get caught up in note-taking --
 priorities and process -- rather than finding the
 best overall solution.
+
 In any case, soon enough you have the
 equivalent of three kitchens purpose-built for
 prepping specific meals, two bathrooms right
@@ -114,6 +128,7 @@ the code on this kind of rehab job, you have to
 go back to square one -- this time, say our pros,
 with vision. There has to be one blueprint that
 everyone agrees is the best plan.
+
 “You have to have a foundation in terms of
 the architecture to make sure it accomplishes
 what you are trying to do,” Estrada says. “You
@@ -121,15 +136,19 @@ have to get input from all the stakeholders, but
 someone from management on down has to
 drive that vision, or you get really bad architecture
 in terms of the software design.”
+
 With the new unified plan in place, you
 can return to the code with purpose and better
 prioritize how to fix the mess.
+
 “When prioritizing, you’re basically saying:
 ‘Which things are we going to do today or this
 week?” says Netflix’s Jacobson. “The right question
 is: ‘Do we care about this at all?’ And if we
 do, then make it happen -- and if we don’t, then
 make it gone.”
+
+---
 
 ## The castaway
 
@@ -149,6 +168,7 @@ there’s not much point in finger-pointing.
 problem may be the manager,” Jacobson says.
 “And if you’re the manager, you’ve done a poor
 job.”
+
 All of our pros offer the same tip: Avoid it in
 the first place. One way to plan for this contingency
 is to cross-train the team to ensure more
@@ -174,6 +194,8 @@ on your staff. Make a direct hire or engage
 a consulting company that approaches the development
 project with resource redundancy.“
 
+---
+
 ## The money pit
 
 The bills for this makeover are so extreme it
@@ -182,6 +204,7 @@ flip out. The architecture had problems from the
 start, and predictably, boatloads of cash didn’t
 solve them. How do you stop throwing good
 money after bad?
+
 Sometimes the instinct is to prioritize and dig
 your way out. But then you end up with a long list
 where everything -- and nothing -- is urgent. Time
@@ -233,6 +256,8 @@ set of program managers who can communicate
 between all the groups to make sure the right
 functionality is being created.”
 
+---
+
 ## The total teardown
 
 Sometimes a rehab job isn’t a rehab job at all.
@@ -274,6 +299,8 @@ consume from it rather than from the previous
 one. We need to take a chance here and have
 confidence in ourselves and go for it. That’s what
 we did. And it worked.”
+
+---
 
 ## The creaking new construction
 
@@ -380,6 +407,8 @@ the genuine
 article
 distress
 call.”
+
+---
 
 ## Here are 14 nightmare clients you may encounter
 
