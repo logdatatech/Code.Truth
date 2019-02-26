@@ -4,11 +4,10 @@
 
 > Do you have code ?
 
-- Compiled ?
-- Frameworks
+- Compiled or Frameworks (Ruby on Rails etc)
 - Serious Excel Fu (Formula Superstars)
 - Serious SQL
-- Scripts
+- Scripts {VB,PowerShell,Bash,Python,R and many more}
 
 ## VBA is a Special Case
 
@@ -16,22 +15,22 @@ Code hides in a few places and there are a Myriad of Files to investigate.
 
 - Excel VBA
 - Word VBA
+- Access VBA
 - Visio Professional VBA
-- PowerPoint VBA
-- Project VBA
-- ArcGIS VBA
+- Project,PowerPoint,Outlook {Rarer but Possible}
+<!--- ArcGIS VBA
 - AutoCAD VBA
 - Enterprise Architect
 - Unicom System Architect
 - SharePoint Designer VBA
 - Office for Mac VBA
-- SolidWorks VBA
+- SolidWorks VBA-->
 
-There could be as few as 50 lines or code or as many as 500,000+ in a VBA Project.
+There could be as few as 50 lines or code or as many as 50,000+ in a VBA Project.
 
 ---
 
-> Do you have widgets ?
+> Do you have widgets / Dashboards / Portals / SIEM ?
 
 ---
 
@@ -55,8 +54,5 @@ There could be as few as 50 lines or code or as many as 500,000+ in a VBA Projec
 
 - Re-used
 - Extended
-- Recycled
 - Consumed with API's
-- Bridges
-
----
+- Linked to Other Applications

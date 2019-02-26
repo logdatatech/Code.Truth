@@ -121,4 +121,6 @@ The colon (:) is reserved for the indication of a sub-title. If a colon is in th
 
 This comment syntax is supported by Project Analyzer. Project Analyzer is a Visual Basic source code analyzer that contains automatic documentation features. The Project Printer add-in of Project Analyzer is able to generate a Comment manual based on code syntax and comments in the code. A comment manual includes module comments, as well as description of procedures and their calling syntax in the module. Project Analyzer includes calls/called by information in the document, so it's not required to manually write this information in the comments.
 
+> VBA 2 MarkDown @NK is working on this.
+
 Writing comments is important if you want people (including yourself) to understand your code. By following a comment standard you make it possible to utilize the comments programmatically when the project is ready. The standard described in this article is one that is readable by both humans and documentation tools, making it ideal for everyday use.

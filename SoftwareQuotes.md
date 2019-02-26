@@ -3,7 +3,7 @@
 
 ## On Coding
 
-> The Programmers Credo: We do these things not because they are easy but because we though they were going to be easy.
+> The Programmers Credo: We do these things not because they are easy but because we thought they were going to be easy.
 
 ## Specifically about Software
 
@@ -23,7 +23,5 @@
 > "The only real wisdom is knowing you know nothing." — Socrates
 
 ---
-
-
 
 
